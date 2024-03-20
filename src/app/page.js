@@ -25,7 +25,7 @@ export default function Home() {
           </a>
           <div className="flex mt-4">
             <a
-              href="https://www.linkedin.com/in/shahzoab-khan/"
+              href="https://www.linkedin.com/in/shazz-dev"
               className="mx-1"
               target="_blank"
               rel="noopener"
@@ -93,7 +93,7 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap justify-evenly mt-8 sm:mt-28">
             <a
-              href="./Shazz-Resume.pdf"
+              href="./resume.pdf"
               download="Shazz-Resume"
               target="_blank"
               rel="noopener"
@@ -102,7 +102,7 @@ export default function Home() {
               Resume
             </a>
             <a
-              href="https://portfolio.shahzoab.com/"
+              href="https://portfolio.shazz.dev"
               target="_blank"
               rel="noopener"
               className="bg-yellow-400 text-black rounded-full w-52 h-10 border border-solid border-black flex justify-center items-center"
