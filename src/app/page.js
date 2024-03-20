@@ -15,7 +15,7 @@ export default function Home() {
               priority
             />
           </div>
-          <h1 className="text-3xl font-bold mt-6">Shahzoab Khan (Shaz)</h1>
+          <h1 className="text-3xl font-bold mt-6">Shahzoab Khan (Shazz)</h1>
           <p className="text-xl text-gray-600 mt-1">Front-End Developer</p>
           <a
             href="mailto:shahzoab@gmail.com"
@@ -93,8 +93,8 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap justify-evenly mt-8 sm:mt-28">
             <a
-              href="./Shaz-Resume.pdf"
-              download="Shaz-Resume"
+              href="./Shazz-Resume.pdf"
+              download="Shazz-Resume"
               target="_blank"
               rel="noopener"
               className="bg-yellow-400 text-black rounded-full w-52 h-10 mb-4 border border-solid border-black flex justify-center items-center"
