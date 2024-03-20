@@ -54,7 +54,7 @@ export default function Home() {
               <Image src="/upwork.svg" alt="Upwork" width={40} height={40} />
             </a>
             <a
-              href="https://www.facebook.com/shahzoab007"
+              href="https://www.facebook.com/shazz.dev"
               className="mx-1"
               target="_blank"
               rel="noopener"
@@ -67,7 +67,7 @@ export default function Home() {
               />
             </a>
             <a
-              href="https://www.instagram.com/shahzoab/"
+              href="https://www.instagram.com/shazz.dev"
               className="mx-1"
               target="_blank"
               rel="noopener"
