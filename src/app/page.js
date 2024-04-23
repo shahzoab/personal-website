@@ -107,11 +107,13 @@ export default function Home() {
             various industries. Proven ability to leverage JavaScript including
             TypeScript, React, Redux, Next.js to build dynamic and responsive
             web applications. Possesses a keen eye for design and enjoys
-            incorporating animations to enhance user interaction. Experienced in
-            e-commerce development, including custom Shopify theme creation.
-            Effective communicator and team leader with experience managing and
-            motivating development teams. Backed by positive recommendations on
-            LinkedIn and Upwork.
+            incorporating animations to enhance user interaction.
+            <br />
+            <br />
+            Experienced in e-commerce development, including custom Shopify
+            theme creation. Effective communicator and team leader with
+            experience managing and motivating development teams. Backed by
+            positive recommendations on LinkedIn and Upwork.
           </p>
           <div className="flex flex-wrap justify-evenly mt-8">
             <a
