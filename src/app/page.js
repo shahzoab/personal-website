@@ -103,12 +103,17 @@ export default function Home() {
         <div className="p-8 lg:p-20">
           <h2 className="text-2xl font-bold text-white">ABOUT ME</h2>
           <p className="mt-4 text-[#EEEEEE]">
-            Experienced Front-End Developer with 10+ years of expertise. Proven
-            track record in building modern websites and apps, leading teams to
-            achieve outstanding outcomes. Strong communicator, collaborative,
-            continuous learner.
+            Versatile Front-End Developer with 10+ years of experience across
+            various industries. Proven ability to leverage JavaScript including
+            TypeScript, React, Redux, Next.js to build dynamic and responsive
+            web applications. Possesses a keen eye for design and enjoys
+            incorporating animations to enhance user interaction. Experienced in
+            e-commerce development, including custom Shopify theme creation.
+            Effective communicator and team leader with experience managing and
+            motivating development teams. Backed by positive recommendations on
+            LinkedIn and Upwork.
           </p>
-          <div className="flex flex-wrap justify-evenly mt-8 sm:mt-28">
+          <div className="flex flex-wrap justify-evenly mt-8">
             <a
               href="./resume.pdf"
               download="Shazz-Resume"
