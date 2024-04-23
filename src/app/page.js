@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="grid sm:grid-cols-2 w-full min-h-screen">
-      <div className="col-span-1 bg-[#f5f5f5] flex items-center justify-center">
+      <div className="col-span-1 bg-[#3F4E4F] flex items-center justify-center">
         <div className="p-8 flex flex-col text-center items-center">
           <div className="w-52 h-52 overflow-hidden">
             <Image
@@ -15,11 +15,13 @@ export default function Home() {
               priority
             />
           </div>
-          <h1 className="text-3xl font-bold mt-6">Shahzoab Khan (Shazz)</h1>
-          <p className="text-xl text-gray-600 mt-1">Front-End Developer</p>
+          <h1 className="text-3xl font-bold mt-6 text-white">
+            Shahzoab Khan (Shazz)
+          </h1>
+          <p className="text-xl text-[#EEEEEE] mt-1">Front-End Developer</p>
           <a
             href="mailto:shahzoab@gmail.com"
-            className="my-6 bg-yellow-400 text-black rounded-full w-52 h-10 border border-solid border-black flex justify-center items-center"
+            className="my-6 bg-[#A27B5C] text-white rounded-full w-52 h-10 flex justify-center items-center"
           >
             Email me
           </a>
@@ -35,6 +37,7 @@ export default function Home() {
                 alt="LinkedIn"
                 width={40}
                 height={40}
+                className="invert"
               />
             </a>
             <a
@@ -43,7 +46,13 @@ export default function Home() {
               target="_blank"
               rel="noopener"
             >
-              <Image src="/github.svg" alt="GitHub" width={40} height={40} />
+              <Image
+                src="/github.svg"
+                alt="GitHub"
+                width={40}
+                height={40}
+                className="invert"
+              />
             </a>
             <a
               href="https://www.upwork.com/freelancers/~0197e6d2b5bd5f4085"
@@ -51,7 +60,13 @@ export default function Home() {
               target="_blank"
               rel="noopener"
             >
-              <Image src="/upwork.svg" alt="Upwork" width={40} height={40} />
+              <Image
+                src="/upwork.svg"
+                alt="Upwork"
+                width={40}
+                height={40}
+                className="invert"
+              />
             </a>
             <a
               href="https://www.facebook.com/shazz.dev"
@@ -64,6 +79,7 @@ export default function Home() {
                 alt="Facebook"
                 width={40}
                 height={40}
+                className="invert"
               />
             </a>
             <a
@@ -77,15 +93,16 @@ export default function Home() {
                 alt="Instagram"
                 width={40}
                 height={40}
+                className="invert"
               />
             </a>
           </div>
         </div>
       </div>
-      <div className="col-span-1 bg-[#f3f1e1] flex items-center justify-center">
+      <div className="col-span-1 bg-[#2C3639] flex items-center justify-center">
         <div className="p-8 lg:p-20">
-          <h2 className="text-2xl font-bold">ABOUT ME</h2>
-          <p className="mt-4 text-gray-700">
+          <h2 className="text-2xl font-bold text-white">ABOUT ME</h2>
+          <p className="mt-4 text-[#EEEEEE]">
             Experienced Front-End Developer with 10+ years of expertise. Proven
             track record in building modern websites and apps, leading teams to
             achieve outstanding outcomes. Strong communicator, collaborative,
@@ -97,7 +114,7 @@ export default function Home() {
               download="Shazz-Resume"
               target="_blank"
               rel="noopener"
-              className="bg-yellow-400 text-black rounded-full w-52 h-10 mb-4 border border-solid border-black flex justify-center items-center"
+              className="bg-[#A27B5C] text-white rounded-full w-52 h-10 mb-4 flex justify-center items-center"
             >
               Resume
             </a>
@@ -105,7 +122,7 @@ export default function Home() {
               href="https://portfolio.shazz.dev"
               target="_blank"
               rel="noopener"
-              className="bg-yellow-400 text-black rounded-full w-52 h-10 border border-solid border-black flex justify-center items-center"
+              className="bg-[#A27B5C] text-white rounded-full w-52 h-10 flex justify-center items-center"
             >
               Portfolio
             </a>
