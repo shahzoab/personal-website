@@ -20,7 +20,7 @@ export default function Home() {
           </h1>
           <p className="text-xl text-[#EEEEEE] mt-1">Front-End Developer</p>
           <a
-            href="mailto:shahzoab@gmail.com"
+            href="mailto:contact@shazz.dev"
             className="my-6 bg-[#A27B5C] text-white rounded-full w-52 h-10 flex justify-center items-center"
           >
             Email me
