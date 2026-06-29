@@ -18,7 +18,7 @@ export default function Home() {
           <h1 className="text-3xl font-bold mt-6 text-white">
             Shahzoab Khan (Shazz)
           </h1>
-          <p className="text-xl text-[#EEEEEE] mt-1">Front-End Developer</p>
+          <p className="text-xl text-[#EEEEEE] mt-1">Software Engineer</p>
           <a
             href="mailto:contact@shazz.dev"
             className="my-6 bg-[#A27B5C] text-white rounded-full w-52 h-10 flex justify-center items-center"
@@ -103,19 +103,20 @@ export default function Home() {
         <div className="p-8 lg:p-20">
           <h2 className="text-2xl font-bold text-white">ABOUT ME</h2>
           <p className="mt-4 text-[#EEEEEE]">
-            Versatile Front-End Developer with 10+ years of experience across
-            various industries. Proven ability to leverage JavaScript including
-            TypeScript, React, Redux, Next.js to build dynamic and responsive
-            web applications. Possesses a keen eye for design and enjoys
-            incorporating animations to enhance user interaction.
+            As a Senior Software Engineer with over 10 years of experience, I
+            specialize in building dynamic, high-performance web applications.
+            My engineering DNA is deeply rooted in frontend architecture, but I
+            operate fluidly across the full stack to deliver end-to-end
+            features.
             <br />
-            <br />
-            Experienced in e-commerce development, including custom Shopify
-            theme creation. Effective communicator and team leader with
-            experience managing and motivating development teams. Backed by
-            positive recommendations on LinkedIn and Upwork.
+            <br />I leverage a modern, TypeScript-driven stack, utilizing React
+            and Next.js for scalable client-side architecture alongside Nest.js
+            for building robust, secure RESTful APIs. My technical approach
+            prioritizes seamless user experiences, efficient data fetching, and
+            highly maintainable systems.
           </p>
-          <div className="flex flex-wrap justify-evenly mt-8">
+          {/* <div className="flex flex-wrap justify-evenly mt-8"></div> */}
+          <div className="flex flex-wrap justify-start mt-8">
             <a
               href="./resume.pdf"
               download="Shazz-Resume"
@@ -125,14 +126,14 @@ export default function Home() {
             >
               Resume
             </a>
-            <a
+            {/* <a
               href="https://portfolio.shazz.dev"
               target="_blank"
               rel="noopener"
               className="bg-[#A27B5C] text-white rounded-full w-52 h-10 flex justify-center items-center"
             >
               Portfolio
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
